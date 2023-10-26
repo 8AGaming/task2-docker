@@ -6,6 +6,8 @@ docker build -t nodeimage .
 
 docker run -it --name nodecontainer -v ./src:/usr/src/app -p 3001:8080 nodeimage sh
 
+# If it's failed and you want to remove your image:
+
 docker rmi {YOUR IMAGE NAME}
 
 # If it's failed and you want to remove your container:

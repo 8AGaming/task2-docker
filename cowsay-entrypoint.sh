@@ -1,6 +1,6 @@
 #!/bin/sh
 
 
-# export PORT="$1"
+# export PORT=$1
 npm start
 
